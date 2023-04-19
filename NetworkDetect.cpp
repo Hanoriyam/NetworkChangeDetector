@@ -87,7 +87,7 @@ int wmain()
 				wprintf(L"wmain: GetCurrentIpAddress() fail.\n");
 				continue;
 			}
-			wprintf(L"DetectNetworkChange: Current IP: %s\n", strIpAddress.c_str());
+			wprintf(L"wmain: Current IP: %s\n", strIpAddress.c_str());
 		}
 	}
 
